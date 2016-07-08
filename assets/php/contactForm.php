@@ -11,7 +11,7 @@
 
 		if (mail($to, $subject, $message, $from)) { 
 			$result = array(
-				'message' => 'Thanks for contacting us!',
+				'message' => 'Thanks for contacting me!',
 				'sendstatus' => 1
 				);
 			echo json_encode($result);

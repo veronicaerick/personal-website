@@ -31,11 +31,11 @@ img {
 }
 
 a {
-	color: #EF4836;
+	color: #024e7c;
 }
 
 a:hover {
-	color: #C4C4C4;
+	color: #024e7c;
 }
 
 /* ---------------------------------------------- /*
@@ -56,11 +56,13 @@ h1 {
 	opacity: 0.5;
 	margin-top: 100px;
 	border-radius: 8px;
+	border: solid 2px #c3f8fd;
 }
 
 h2 {
 	font-size: 40px;
 	font-weight: 700;
+
 }
 
 h3 {
@@ -349,11 +351,13 @@ a,
 
 .section, .callout {
 	position: relative;
-	padding: 120px 0;
+	padding: 90px 0;
 }
 
 .callout {
-	background: #F5F5F5;
+	background: #c3f8fd;
+	tranparency:0.5;
+	border: solid 2px #0085A1; 
 }
 
 .headline {
@@ -444,6 +448,15 @@ h3 > .fa {
 	0%   { top:5px;  opacity: 0;}
 	30%  { top:10px; opacity: 1;}
 	100% { top:25px; opacity: 0;}
+}
+
+.parent-footer {
+	text-align: center;
+
+}
+
+.services-header {
+	padding-top: -105px;
 }
 
 /* ---------------------------------------------- /*
@@ -615,7 +628,7 @@ h3 > .fa {
 }
 
 .resume-place {
-	margin-bottom: 20px;
+	margin-bottom: 1px;
 }
 
 .resume-place > i,
@@ -623,6 +636,14 @@ h3 > .fa {
 	color: #C4C4C4;
 	font-size: 14px;
 	margin-right: 5px;
+}
+
+#resume {
+	padding:0;
+}
+
+.resume-header {
+	padding-top: 50px;
 }
 
 /* ---------------------------------------------- /*
@@ -708,7 +729,7 @@ h3 > .fa {
 
 #footer {
 	background: #141414;
-	padding: 20px 0;
+	margin-bottom: -10px; 
 	color: #FFF;
 }
 
@@ -717,6 +738,10 @@ h3 > .fa {
 	margin: 5px 0;
 }
 
+.contact-footer {
+	padding-top: 10px;
+	color: white;
+}
 /* ---------------------------------------------- /*
  * Preloader
 /* ---------------------------------------------- */
