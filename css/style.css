@@ -1,0 +1,356 @@
+body {
+  font-family: "Ostrich Sans";
+  margin: 0;
+}
+
+
+a:hover {
+  opacity: 0.5;
+}
+
+#logo-vee {
+  padding-bottom: 10px;
+}
+.nav {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 40px;
+}
+
+.main-section{
+  background: url(../images/main-header.jpg) no-repeat center center scroll;
+  display: table;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.main-section h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.main-section h1:after {
+  content: ' ';
+  display: block;
+  width: 50px;
+  margin: 1px auto 10px auto;
+  border: 2px solid #fff;
+}
+
+.main-section p {
+  font-size: 30px;
+  color: #deeef5;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-family: "Josefin Sans";
+  padding-bottom: 12px;
+}
+
+p {
+  font-family: "Josefin Sans";
+  text-transform: none;
+}
+
+.main-section > .section-content {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.main-section p {
+  font-size: 20px;
+}
+
+.main-section h2 {
+  font-weight: 100;
+  color: #deeef5;
+}
+
+.main-section h2 > strong {
+  color: white;
+}
+
+.section {
+  display: block;
+}
+
+.section-content {
+  padding: 100px 100px;
+  display: block;
+  overflow: auto;
+}
+
+.section-content .content > div {
+  padding-left: 20px;
+}
+
+.blue-bg > .section-content{
+  /* background-color: #3295be; */
+  opacity: 0.9;
+  background: rgba(1, 75, 112, 1);
+  background: -moz-linear-gradient(top, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(1, 75, 112, 1)), color-stop(100%, rgba(75, 154, 171, 1)));
+  background: -webkit-linear-gradient(top, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+  background: -o-linear-gradient(top, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+  background: linear-gradient(to bottom, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#014B70', endColorstr='#4B9AAB', GradientType=0 );
+}
+
+
+.content p {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.title > h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+.white-bg .title h1 {
+  color: #3295be;
+}
+
+.white-bg > .section-content {
+  background-color: white;
+}
+
+.blue-bg .title h1 {
+  color: white;
+}
+
+.white-bg p, .white-bg h2 {
+  color: #58798c;
+}
+
+.title h1:after {
+  content: ' ';
+  display: block;
+  width: 50px;
+  margin: 10px 0;
+}
+
+.blue-bg .title > h1:after {
+  border: 2px solid #fff;
+}
+
+.white-bg .title > h1:after {
+  border: 2px solid #3295be;
+}
+
+.title {
+  float: left;
+  width: 20%;
+}
+
+.content {
+  float: left;
+  width: 80%;
+}
+
+.box {
+  border: 1px solid #89bbd3;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+
+
+  transition: opacity 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s ;
+  transition: all ease 0.5s ;
+}
+
+.inner-box {
+  padding-left: 8px;
+}
+
+.box:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.blue-bg h2 {
+  color: white;
+  text-transform: none;
+}
+
+.blue-bg p {
+  color: #deeef5;
+}
+
+.box h2, .box img {
+  display: inline;
+}
+
+.box img {
+  margin-left: 10px;
+}
+
+.box a:hover {
+  opacity: 0.5;
+}
+
+.box p {
+  color: #95c5db;
+}
+
+.small {
+  font-size: 14px;
+  color: #aac7d9;
+  margin-bottom: 10px;
+  font-family: "Josefin Sans";
+}
+
+.w3-progress-container {
+  width:90%;
+  height:0.7em;
+  position:relative;
+  background-color:#deeef5;
+  margin-bottom: 30px;
+
+  transition: opacity 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s ;
+  transition: all ease 0.5s ;
+}
+
+.w3-progress-container:hover {
+  opacity: 0.5;
+}
+
+.w3-progressbar {
+  background: rgba(34,125,170,1);
+  background: -moz-linear-gradient(left, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34,125,170,1)), color-stop(100%, rgba(81,172,205,1)));
+  background: -webkit-linear-gradient(left, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: -o-linear-gradient(left, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: -ms-linear-gradient(left, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  background: linear-gradient(to right, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#227daa', endColorstr='#51accd', GradientType=1 );
+  height:100%;
+  position:absolute;
+  line-height:inherit;
+}
+
+.dual-col {
+  width: 50%;
+  float: left;
+}
+
+.dual-col h2 {
+  color: #2473a0;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer .section-content {
+  padding: 0 60px;
+  border-top: 1px #eee solid;
+  color: #aaa;
+}
+
+@media only screen and (max-width: 1200px) {
+    .title {
+      width: 40%;
+    }
+
+  .content {
+    width: 60%;
+  }
+
+  .section-content .content > div {
+    padding-left: 0;
+  }
+
+  .section-content {
+    padding: 60px 30px;
+  }
+
+  .title img {
+    margin-bottom: 20px;
+  }
+
+  .dual-col {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+    .title, .content {
+      width: 100%;
+    }
+
+  .section-content .content > div {
+    padding-left: 0;
+  }
+
+  .section-content {
+    padding: 60px 30px;
+  }
+
+  .title img {
+    margin-bottom: 20px;
+  }
+
+  .w3-progress-container {
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .main-section h1 {
+    font-size: 40px;
+  }
+
+  .main-section {
+    height: 670px;
+  }
+}
+
+.explogos {
+  float:right;
+}
+
+.arrow {
+  -webkit-animation: bounce 1.9s ease infinite;
+  -moz-animation: bounce 1.9s ease infinite;
+  animation: bounce 1.9s ease infinite;
+  padding-top: 2px;
+  height: 20px;
+}
+
+.fa-angle-double-down-5x {
+  font-size: 200px;
+}
+
