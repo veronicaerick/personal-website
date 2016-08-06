@@ -1,5 +1,4 @@
 body {
-  font-family: "Ostrich Sans";
   margin: 0;
 }
 
@@ -55,6 +54,9 @@ a:hover {
   font-size: 60px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-family: "Ostrich Sans";
+  font-weight: bold;
+  padding-top: 200px;
 }
 
 .main-section h1:after {
@@ -63,6 +65,8 @@ a:hover {
   width: 50px;
   margin: 1px auto 10px auto;
   border: 2px solid #fff;
+  font-family: "Ostrich Sans";
+  font-weight: bold;
 }
 
 .main-section p {
@@ -134,6 +138,9 @@ p {
   text-transform: uppercase;
   font-size: 26px;
   letter-spacing: 2px;
+  font-family: "Ostrich Sans";
+  font-weight: bold;
+
 }
 
 .white-bg .title h1 {
@@ -146,10 +153,20 @@ p {
 
 .blue-bg .title h1 {
   color: white;
+      font-family: "Ostrich Sans";
+
 }
 
-.white-bg p, .white-bg h2 {
+.white-bg p {
   color: #58798c;
+}
+
+.white-bg h2 {
+  font-family: "Ostrich Sans";
+  font-weight: bold;
+  color: #58798c;
+
+
 }
 
 .title h1:after {
@@ -212,6 +229,8 @@ h2 {
 .blue-bg h2 {
   color: white;
   text-transform: none;
+      font-family: "Ostrich Sans";
+
 }
 
 .blue-bg p {
@@ -220,6 +239,8 @@ h2 {
 
 .box h2, .box img {
   display: inline;
+      font-family: "Ostrich Sans";
+
 }
 
 .box img {
@@ -257,7 +278,7 @@ h2 {
 
 .skills-row-2 {
   height: 110px;
-  margin-left: 20px;
+  margin-left: 10px;
    padding: 5px;
    opacity: 0.9;
 }
@@ -275,17 +296,17 @@ h2 {
 }
 
 .projects {
-  margin-left: 50px;
-  height: 150px;
-  display: inline-block;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.projects-head {
+  font-family: "Ostrich Sans";
+  font-weight: bold;
 
 }
 
-.footer .section-content {
-  padding: 0 60px;
-  border-top: 1px #eee solid;
-  color: #aaa;
-}
+
 
 @media only screen and (max-width: 1200px) {
     .title {
@@ -345,6 +366,7 @@ h2 {
   .main-section {
     height: 670px;
   }
+
 }
 
 .explogos {
