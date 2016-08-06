@@ -54,8 +54,8 @@ a:hover {
   font-size: 60px;
   text-transform: uppercase;
   margin-bottom: 10px;
-  font-family: "Ostrich Sans";
-  font-weight: bold;
+  font-family: "Ostrich Sans" !important;
+  font-weight: bold !important;
   padding-top: 200px;
 }
 
@@ -65,8 +65,8 @@ a:hover {
   width: 50px;
   margin: 1px auto 10px auto;
   border: 2px solid #fff;
-  font-family: "Ostrich Sans";
-  font-weight: bold;
+  font-family: "Ostrich Sans" !important;
+  font-weight: bold !important;
 }
 
 .main-section p {
@@ -153,7 +153,7 @@ p {
 
 .blue-bg .title h1 {
   color: white;
-      font-family: "Ostrich Sans";
+      font-family: "Ostrich Sans" !important;
 
 }
 
@@ -162,8 +162,8 @@ p {
 }
 
 .white-bg h2 {
-  font-family: "Ostrich Sans";
-  font-weight: bold;
+  font-family: "Ostrich Sans" !important;
+  font-weight: bold !important;
   color: #58798c;
 
 
@@ -229,7 +229,7 @@ h2 {
 .blue-bg h2 {
   color: white;
   text-transform: none;
-      font-family: "Ostrich Sans";
+      font-family: "Ostrich Sans" !important;
 
 }
 
@@ -301,8 +301,8 @@ h2 {
 }
 
 .projects-head {
-  font-family: "Ostrich Sans";
-  font-weight: bold;
+  font-family: "Ostrich Sans" !important;
+  font-weight: bold !important;
 
 }
 
