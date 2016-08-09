@@ -2,10 +2,17 @@ body {
   margin: 0;
 }
 
+a {
+  color: white !important;
+  font-family: "Josefin Sans";
+  text-decoration: none;
+  font-size: 13px;
+}
 
 a:hover {
   opacity: 0.5;
 }
+
 
 #logo-vee {
   padding-bottom: 10px;
@@ -111,7 +118,8 @@ p {
   padding-left: 20px;
 }
 
-.blue-bg > .section-content{
+
+.blue-background > .section-content{
   /* background-color: #3295be; */
   opacity: 0.9;
   background: rgba(1, 75, 112, 1);
@@ -138,7 +146,7 @@ p {
   text-transform: uppercase;
   font-size: 26px;
   letter-spacing: 2px;
-  font-family: "Ostrich Sans";
+ 
   font-weight: bold;
 
 }
@@ -151,7 +159,7 @@ p {
   background-color: white;
 }
 
-.blue-bg .title h1 {
+.blue-background .title h1 {
   color: white;
       font-family: "Ostrich Sans" !important;
 
@@ -176,7 +184,7 @@ p {
   margin: 10px 0;
 }
 
-.blue-bg .title > h1:after {
+.blue-background .title > h1:after {
   border: 2px solid #fff;
 }
 
@@ -190,7 +198,7 @@ p {
 }
 
 .content {
-  float: left;
+  float: right;
   width: 80%;
 }
 
@@ -226,14 +234,14 @@ h2 {
   margin-bottom: 5px;
 }
 
-.blue-bg h2 {
+.blue-background h2 {
   color: white;
   text-transform: none;
-      font-family: "Ostrich Sans" !important;
+  font-family: "Ostrich Sans" !important;
 
 }
 
-.blue-bg p {
+.blue-background p {
   color: #deeef5;
 }
 
@@ -264,8 +272,12 @@ h2 {
 
 .skills-row-1 {
   height: 110px;
-  padding: 12px;
+  padding: 8px;
   opacity: 0.9;
+}
+
+.skills-one {
+  margin: 0 auto;
 }
 
 .skills-row-1:hover {
