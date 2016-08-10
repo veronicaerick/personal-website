@@ -4,7 +4,7 @@ body {
 
 a {
   color: white !important;
-  font-family: "Josefin Sans";
+  font-family: "Josefin Sans", Verdana;
   text-decoration: none;
   font-size: 13px;
 }
@@ -60,7 +60,7 @@ a:hover {
   font-size: 60px;
   text-transform: uppercase;
   margin-bottom: 10px;
-  font-family: "Ostrich Sans" !important;
+  font-family: "Ostrich Sans", Verdana !important;
   font-weight: bold !important;
   padding-top: 200px;
 }
@@ -71,7 +71,7 @@ a:hover {
   width: 50px;
   margin: 1px auto 10px auto;
   border: 2px solid #fff;
-  font-family: "Ostrich Sans" !important;
+  font-family: "Ostrich Sans", Verdana !important;
   font-weight: bold !important;
 }
 
@@ -80,18 +80,18 @@ a:hover {
   color: #deeef5;
   letter-spacing: 1px;
   text-transform: lowercase;
-  font-family: "Josefin Sans";
+  font-family: "Josefin Sans", Verdana;
   padding-bottom: 12px;
 }
 
 p {
-  font-family: "Josefin Sans";
+  font-family: "Josefin Sans", Verdana;
   text-transform: none;
 }
 
 .small-text {
   font-size: 10px;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", Verdana;
 
 }
 
@@ -163,7 +163,7 @@ p {
 
 .blue-background .title h1 {
   color: white;
-  font-family: "Ostrich Sans" !important;
+  font-family: "Ostrich Sans", Verdana !important;
 }
 
 .white-background p {
@@ -171,7 +171,7 @@ p {
 }
 
 .white-background h2 {
-  font-family: "Ostrich Sans" !important;
+  font-family: "Ostrich Sans", Verdana !important;
   font-weight: bold !important;
   color: #4b9aab;
 }
@@ -191,7 +191,7 @@ p {
 .content {
   float: right;
   width: 80%;
-  padding-left: 70px;
+  padding-left: 20px;
 }
 
 .jobs {
