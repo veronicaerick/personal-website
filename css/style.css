@@ -229,7 +229,7 @@ h2 {
 .blue-background h2 {
   color: white;
   text-transform: none;
-  font-family: "Ostrich Sans" !important;
+  font-family: "Ostrich Sans", Verdana !important;
 
 }
 
@@ -239,7 +239,7 @@ h2 {
 
 .jobs h2, .jobs img {
   display: inline;
-      font-family: "Ostrich Sans";
+      font-family: "Ostrich Sans", Verdana;
 
 }
 
@@ -259,7 +259,7 @@ h2 {
   font-size: 14px;
   color: #aac7d9;
   margin-bottom: 10px;
-  font-family: "Josefin Sans";
+  font-family: "Josefin Sans", Verdana;
 }
 
 
@@ -295,7 +295,7 @@ h2 {
 }
 
 .projects-head {
-  font-family: "Ostrich Sans" !important;
+  font-family: "Ostrich Sans", Verdana !important;
   font-weight: bold !important;
 
 }
