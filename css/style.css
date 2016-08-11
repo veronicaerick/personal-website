@@ -185,7 +185,7 @@ p {
 
 .title {
   float: left;
-  width: 30%;
+  width: 20%;
 }
 
 .content {
@@ -302,7 +302,7 @@ h2 {
 
 
 @media only screen and (max-width: 1200px) {
-    .title {
+  .title {
       width: 40%;
     }
 
@@ -336,6 +336,19 @@ h2 {
     padding-left: 0;
   }
 
+  .title-FE h1 {
+    font-family: "Ostrich Sans", Verdana;
+  }
+
+  .title-small {
+    font-family: "Josefin Sans", Verdana;
+  }
+
+  p {
+  font-family: "Josefin Sans", Verdana;
+  text-transform: none;
+}
+
   .section-content {
     padding: 60px 30px;
   }
@@ -361,6 +374,54 @@ h2 {
   }
 
 }
+
+@media only screen and (max-width: 480px) {
+    .title, .content {
+      width: 100%;
+    }
+  .title-FE h1 {
+    font-family: "Ostrich Sans", Verdana;
+  }
+
+  .title-small {
+    font-family: "Josefin Sans", Verdana;
+  }
+
+  p {
+  font-family: "Josefin Sans", Verdana;
+  text-transform: none;
+}
+
+  .section-content .content > div {
+    padding-left: 0;
+  }
+
+  .section-content {
+    padding: 60px 30px;
+  }
+
+  .title img {
+    margin-bottom: 20px;
+  }
+
+  .w3-progress-container {
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .main-section h1 {
+    font-size: 40px;
+  }
+
+  .main-section {
+    height: 670px;
+  }
+
+}
+
 
 .explogos {
   float:right;
