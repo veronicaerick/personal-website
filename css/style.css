@@ -156,6 +156,10 @@ p {
 
 }
 
+.edu {
+  padding-left: 20px;
+}
+
 .white-background .title h1 {
   color: #4b9aab;
 }
@@ -186,6 +190,8 @@ p {
 .title {
   float: left;
   width: 20%;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .content {
