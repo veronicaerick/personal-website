@@ -714,3 +714,145 @@ h2 {
 .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
   opacity: 1;
 }
+
+/*skills*/
+.skills-diagram {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 35em;
+  margin: 2em auto 2em;
+}
+.skills-diagram > dd {
+  /* Hide inner attributes */
+  display: none;
+}
+.skills-diagram dt {
+  display: inline-block;
+  vertical-align: top;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  
+  /* set defaults to skill-2 */
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.skills-diagram dt:hover {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/* Support vertical mode */
+.skills-diagram-vertical dt {
+  display: block;
+  /* .25em is an equivalent to inline-block's horizontal whitespace margin */
+  margin: .25em auto;
+  font-family: "Ostrich Sans", Verdana !important;
+}
+
+/* Provide 10 different sizes */
+
+
+/*bootstrap*/
+.skills-diagram .skill-2 {
+  width: 5.5em;
+  height: 5em;
+  line-height: 5em;
+  font-family: "Ostrich Sans", Verdana;
+  background-color: rgba(1, 75, 112, .5);
+  border-color: rgba(1, 75, 112, 1);
+  color: white;
+}
+/*sql*/
+.skills-diagram .skill-3 {
+  vertical-align: middle;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  font-family: "Ostrich Sans", Verdana;
+  background-color: rgba(1, 75, 112, .5);
+  border-color: rgba(138, 138, 140, 1);
+  color: white;
+}
+.skills-diagram .skill-4 {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  font-family: "Ostrich Sans", Verdana;
+  background-color: rgba(75, 154, 171, .7);
+  border-color: rgba(75, 154, 171, 1);
+  color: white;
+}
+.skills-diagram .skill-5 {
+  vertical-align: bottom;
+  font-family: "Ostrich Sans", Verdana;
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  background-color: rgba(1, 75, 112, .5);
+  border-color: rgba(109, 182, 173, 1);
+  color: white;
+}
+.skills-diagram .skill-6 {
+  vertical-align: top;
+  font-family: "Ostrich Sans", Verdana;
+  width: 6em;
+  height: 6em;
+  line-height: 6em;
+  
+  background-color: rgba(75, 154, 171, 1.5);
+  border-color: rgba(75, 154, 171, 1);
+  color: white;
+}
+.skills-diagram .skill-7 {
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  font-family: "Ostrich Sans", Verdana;
+  background-color: rgba(128,0,0, .5);
+  border-color: rgba(214, 89, 102, 1);
+  color: white;
+}
+.skills-diagram .skill-8 {
+  vertical-align: bottom;
+  font-family: "Ostrich Sans", Verdana;
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(75, 154, 171, .6);
+  border-color: rgba(75, 154, 171, 1);
+  color: white;
+}
+.skills-diagram .skill-9 {
+  width: 8em;
+  height: 8em;
+  line-height: 9em;
+  font-family: "Ostrich Sans", Verdana;
+  background-color: rgba(128,0,0, .7);
+  border-color: rgba(177, 18, 2, 1);
+  color: white;
+}
+.skills-diagram .skill-10 {
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(75, 154, 171, .7);
+  border-color: rgba(75, 154, 171, 1);
+  color: white;
+  font-family: "Ostrich Sans", Verdana;
+}
+
+
