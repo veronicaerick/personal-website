@@ -22,6 +22,21 @@
 
 
     </head>
+    <!-- loading animation -->
+    <div id="demo-content">
+            <div id="loader-wrapper">
+                <div id="loader"></div>
+
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+
+            </div>
+
+            <div id="content">
+    </div>
+    </div>
+
+
     <body>
     <div class="se-pre-con"></div>
         <div class="main-section">
@@ -48,7 +63,7 @@
                     <div class="bio">
                         <h2>Veronica Erick</h2>
                             <p>
-                            I'm a Developer and Designer. I focus on (and love) front-end web development &amp; UI and UX design. Years of working in marketing has aligned my strategy &amp; code production to be above all, user-driven. I am self-motivated, and I am constantly experimenting with new technologies and techniques. I am very passionate about development and strive for continuous and lifelong learning. Now let's solve problems and beautify things! <br/><br> 
+                            I'm a developer and designer. I focus on (and love) front-end web development &amp; UI and UX design. Years of working in marketing has aligned my strategy &amp; code production to be above all, user-driven. I am self-motivated, and I am constantly experimenting with new technologies and techniques. I am very passionate about development and strive for continuous and lifelong learning. Now let's solve problems and beautify things! <br/><br> 
 
                             I work in HTML, CSS, JavaScript, Python &amp; more. 
                             <br/><br/>
@@ -201,5 +216,13 @@
   ga('send', 'pageview');
 
 </script>
+<script type="text/javascript">$(document).ready(function() {
+   
+   setTimeout(function(){
+     $('body').addClass('loaded');
+     $('h1').css('color','#222222');
+   }, 3000);
+   
+ });</script>
     </body>
 </html>

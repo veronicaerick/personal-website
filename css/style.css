@@ -85,6 +85,7 @@ p {
   font-family: "Ostrich Sans", Verdana !important;
   font-weight: bold !important;
   padding-top: 200px;
+  color: white !important;
 }
 
 .main-section h1:after {
@@ -175,17 +176,17 @@ p {
 }
 
 .white-background .title h1 {
-  color: #4b9aab;
+  color: #4b9aab !important;
 }
 
 
 .blue-background .title h1 {
-  color: white;
+  color: white !important;
   font-family: "Ostrich Sans", Verdana !important;
 }
 
 .white-background p {
-  color: #4b9aab;
+  color: #4b9aab !important;
 }
 
 .white-background h2 {
@@ -768,25 +769,43 @@ h2 {
 
 /*bootstrap*/
 .skills-diagram .skill-2 {
+    background: -moz-linear-gradient(top, #80c5de, #de987f); 
+    background: -webkit-linear-gradient(top, #80c5de, #de987f); 
+    background: -o-linear-gradient(top, #80c5de, #de987f); 
+    background: -ms-linear-gradient(top, #80c5de, #de987f); 
+    background: linear-gradient(top, #80c5de, #de987f); color: #000;
+
+}
+.skills-diagram .skill-2 {
   width: 5.5em;
   height: 5em;
   line-height: 5em;
   font-family: "Ostrich Sans", Verdana;
-  background-color: rgba(1, 75, 112, .5);
-  border-color: rgba(1, 75, 112, 1);
+  border-color: #80c5de;
   color: white;
+  opacity: 0.9;
 }
 /*sql*/
+
+.skills-diagram .skill-3 {
+  background: linear-gradient(90deg, rgb(106, 161, 211), rgb(0, 82, 163));
+  background: -webkit-linear-gradient(90deg, rgb(106, 161, 211), rgb(0, 82, 163));
+}
 .skills-diagram .skill-3 {
   vertical-align: middle;
+  opacity: 0.8;
   width: 3em;
   height: 3em;
   line-height: 3em;
   font-family: "Ostrich Sans", Verdana;
-  background-color: rgba(1, 75, 112, .5);
-  border-color: rgba(138, 138, 140, 1);
   color: white;
 }
+
+.skills-diagram .skill-4 {
+  background: linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
+  background: -webkit-linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
+}
+
 .skills-diagram .skill-4 {
   width: 4em;
   height: 4em;
@@ -795,37 +814,68 @@ h2 {
   background-color: rgba(75, 154, 171, .7);
   border-color: rgba(75, 154, 171, 1);
   color: white;
+  opacity: 0.9;
 }
+
+.skills-diagram .skill-5 {
+  background: linear-gradient(90deg, rgb(106, 176, 221), rgb(51, 136, 148));
+  background: -webkit-linear-gradient(90deg, rgb(106, 176, 221), rgb(51, 136, 148));
+}
+
 .skills-diagram .skill-5 {
   vertical-align: bottom;
   font-family: "Ostrich Sans", Verdana;
   width: 5em;
   height: 5em;
   line-height: 5em;
-  background-color: rgba(1, 75, 112, .5);
+  opacity: 0.7;
   border-color: rgba(109, 182, 173, 1);
   color: white;
 }
+
+.skills-diagram .skill-6 {
+  background: linear-gradient(90deg, rgb(37, 147, 215), rgb(31, 83, 139));
+  background: -webkit-linear-gradient(90deg, rgb(37, 147, 215), rgb(31, 83, 139));
+}
+
+
 .skills-diagram .skill-6 {
   vertical-align: top;
   font-family: "Ostrich Sans", Verdana;
   width: 6em;
   height: 6em;
   line-height: 6em;
-  
+  opacity: 0.7;
   background-color: rgba(75, 154, 171, 1.5);
   border-color: rgba(75, 154, 171, 1);
   color: white;
 }
+
+.skills-diagram .skill-7 {
+   background: -moz-linear-gradient(top, #80c5de, #de987f); 
+    background: -webkit-linear-gradient(top, #80c5de, #de987f); 
+    background: -o-linear-gradient(top, #80c5de, #de987f); 
+    background: -ms-linear-gradient(top, #80c5de, #de987f); 
+    background: linear-gradient(top, #80c5de, #de987f); color: #000;
+}
+
+
 .skills-diagram .skill-7 {
   width: 8em;
   height: 8em;
   line-height: 8em;
   font-family: "Ostrich Sans", Verdana;
   background-color: rgba(128,0,0, .5);
-  border-color: rgba(214, 89, 102, 1);
   color: white;
+  opacity: 0.8;
 }
+
+.skills-diagram .skill-8 {
+  background: linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
+  background: -webkit-linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
+}
+
+
 .skills-diagram .skill-8 {
   vertical-align: bottom;
   font-family: "Ostrich Sans", Verdana;
@@ -833,26 +883,303 @@ h2 {
   height: 8em;
   line-height: 8em;
   background-color: rgba(75, 154, 171, .6);
-  border-color: rgba(75, 154, 171, 1);
   color: white;
+  opacity: 0.8;
 }
+
+.skills-diagram .skill-9 {
+  background: linear-gradient(90deg, rgb(27, 181, 202), rgb(0, 59, 111));
+  background: -webkit-linear-gradient(90deg, rgb(27, 181, 202), rgb(0, 59, 111));
+}
+
 .skills-diagram .skill-9 {
   width: 8em;
   height: 8em;
   line-height: 9em;
   font-family: "Ostrich Sans", Verdana;
   background-color: rgba(128,0,0, .7);
-  border-color: rgba(177, 18, 2, 1);
   color: white;
+  opacity: 0.7;
 }
+
+.skills-diagram .skill-10 {
+  background: linear-gradient(90deg, rgb(24, 152, 206), rgb(0, 127, 145));
+  background: -webkit-linear-gradient(90deg, rgb(24, 152, 206), rgb(0, 127, 145));
+}
+
 .skills-diagram .skill-10 {
   width: 8em;
   height: 8em;
   line-height: 8em;
   background-color: rgba(75, 154, 171, .7);
-  border-color: rgba(75, 154, 171, 1);
   color: white;
+  opacity: 0.7;
   font-family: "Ostrich Sans", Verdana;
 }
+
+/*LOADER*/
+
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FFFFF0;
+
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+
+    z-index: 1001;
+}
+
+    #loader:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: lightgrey;
+
+        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color:lightblue;
+        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    @-webkit-keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    @keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    #loader-wrapper .loader-section {
+      background: rgba(1, 75, 112, 1);
+      background: -moz-linear-gradient(top, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(1, 75, 112, 1)), color-stop(100%, rgba(75, 154, 171, 1)));
+      background: -webkit-linear-gradient(top, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+      background: -o-linear-gradient(top, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+      background: -ms-linear-gradient(top, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+      background: linear-gradient(to bottom, rgba(1, 75, 112, 1) 0%, rgba(75, 154, 171, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#014B70', endColorstr='#4B9AAB', GradientType=0 );
+      
+      }
+
+    #loader-wrapper .loader-section {
+        position: fixed;
+        top: 0;
+        width: 51%;
+        height: 100%;
+        z-index: 1000;
+        -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(0);  /* IE 9 */
+        transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader-wrapper .loader-section.section-left {
+        left: 0;
+    }
+
+    #loader-wrapper .loader-section.section-right {
+        right: 0;
+    }
+
+    /* Loaded */
+    .loaded #loader-wrapper .loader-section.section-left {
+        -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(-100%);  /* IE 9 */
+                transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+                transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+
+    .loaded #loader-wrapper .loader-section.section-right {
+        -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(100%);  /* IE 9 */
+                transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+
+-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+        transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+    
+    .loaded #loader {
+        opacity: 0;
+        -webkit-transition: all 0.3s ease-out;  
+                transition: all 0.3s ease-out;
+    }
+    .loaded #loader-wrapper {
+        visibility: hidden;
+
+        -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateY(-100%);  /* IE 9 */
+                transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.3s 1s ease-out;  
+                transition: all 0.3s 1s ease-out;
+    }
+    
+    /* JavaScript Turned Off */
+    .no-js #loader-wrapper {
+        display: none;
+    }
+    .no-js h1 {
+        color: #222222;
+    }
+
+    #content {
+        margin: 0 auto;
+/*        padding-bottom: 50px;
+*/        width: 80%;
+        max-width: 978px;
+    }  
+
+
+
+
+
+
+============================================================= */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+  
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
 
 
