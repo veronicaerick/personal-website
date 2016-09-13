@@ -17,6 +17,14 @@ a:hover {
 p {
   font-family: "Josefin Sans", Verdana;
   text-transform: none;
+  font-size: 18px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 
@@ -31,15 +39,16 @@ p {
   top: 40px;
 }
 
-.explogos {
-  float:right;
-  opacity: 0.9;
-}
-
 .title {
   font-family: "Ostrich Sans", Verdana !important;
+}
+
+.title-FE {
+  font-family: "Ostrich Sans", Verdana, sans-seriff !important;
+  font-weight: bold;
 
 }
+
 .projects-title {
   font-family: "Ostrich Sans", Verdana !important;
   font-weight: bold;
@@ -47,7 +56,7 @@ p {
 }
 
 .small {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #aac7d9;
   margin-bottom: 8px;
   font-family: "Josefin Sans", Verdana;
@@ -158,7 +167,6 @@ p {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#014B70', endColorstr='#4B9AAB', GradientType=0 );
 }
 
-
 .content p {
   margin: 0;
   font-size: 18px;
@@ -173,11 +181,10 @@ p {
   font-size: 26px;
   letter-spacing: 2px;
   font-weight: bold;
-
 }
 
 .edu {
-  padding-left: 20px;
+  padding-left: 10em;
 }
 
 .white-background .title h1 {
@@ -216,8 +223,28 @@ p {
 
 .content {
   float: right;
-  width: 80%;
-  padding-left: 20px;
+  width: 70%;
+  padding-left: 10px;
+}
+
+.projects {
+  border: 1.5px solid rgba(75, 154, 171, 1) !important;
+  border-radius: 20px;
+  padding: 20px;
+  color: grey;
+  margin-bottom: 20px;
+  width: 90%;
+  position: relative;
+  transition: opacity 0.5s;
+  -webkit-transition: all ease-in 0.9s;
+  -moz-transition: all ease-in 0.9s;
+  -o-transition: all ease-in 0.9s;
+  -ms-transition: all ease-in 0.9s ;
+  transition: all ease-in 0.9s;
+}
+
+.inner-projects {
+  padding-left: 8px;
 }
 
 .jobs {
@@ -244,12 +271,298 @@ p {
   background: rgba(255,255,255,0.1);
 }
 
-h2 {
-  margin: 0;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+/*skills*/
 
+.parent-skills {
+  margin: 0 auto;
+}
+.skills-diagram {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 60em;
+  margin: 2em auto 2em;
+  margin-right: 3.5em;
+  float: left;
+}
+.skills-diagram > dd {
+  /* Hide inner attributes */
+  display: none;
+}
+.skills-diagram dt {
+  display: inline-block;
+  vertical-align: top;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  
+  /* set defaults to skill-2 */
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.skills-diagram dt:hover {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/* Support vertical mode */
+.skills-diagram-vertical dt {
+  display: block;
+  /* .25em is an equivalent to inline-block's horizontal whitespace margin */
+  margin: .25em auto;
+  font-family: "Ostrich Sans", Verdana !important;
+}
+
+
+.skills-diagram .skill-2 {
+    background: -moz-linear-gradient(top, #80c5de, #de987f); 
+    background: -webkit-linear-gradient(top, #80c5de, #de987f); 
+    background: -o-linear-gradient(top, #80c5de, #de987f); 
+    background: -ms-linear-gradient(top, #80c5de, #de987f); 
+    background: linear-gradient(top, #80c5de, #de987f); color: #000;
+
+}
+.skills-diagram .skill-2 {
+  width: 5.5em;
+  height: 5em;
+  line-height: 5em;
+  font-family: "Ostrich Sans", Verdana;
+  border-color: #80c5de;
+  color: white;
+  opacity: 0.7;
+}
+/*sql*/
+
+.skills-diagram .skill-3 {
+  background: linear-gradient(90deg, rgb(106, 161, 211), rgb(0, 82, 163));
+  background: -webkit-linear-gradient(90deg, rgb(106, 161, 211), rgb(0, 82, 163));
+}
+.skills-diagram .skill-3 {
+  vertical-align: middle;
+  opacity: 0.7;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  font-family: "Ostrich Sans", Verdana;
+  color: white;
+}
+
+.skills-diagram .skill-4 {
+  background: linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
+  background: -webkit-linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
+}
+
+.skills-diagram .skill-4 {
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  font-family: "Ostrich Sans", Verdana;
+  background-color: rgba(75, 154, 171, .7);
+  border-color: rgba(75, 154, 171, 1);
+  color: white;
+  opacity: 0.6;
+}
+
+.skills-diagram .skill-5 {
+  background: linear-gradient(90deg, rgb(106, 176, 221), rgb(51, 136, 148));
+  background: -webkit-linear-gradient(90deg, rgb(106, 176, 221), rgb(51, 136, 148));
+}
+
+.skills-diagram .skill-5 {
+  vertical-align: bottom;
+  font-family: "Ostrich Sans", Verdana;
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  opacity: 0.7;
+  border-color: rgba(109, 182, 173, 1);
+  color: white;
+}
+
+.skills-diagram .skill-6 {
+  background: linear-gradient(90deg, rgb(37, 147, 215), rgb(31, 83, 139));
+  background: -webkit-linear-gradient(90deg, rgb(37, 147, 215), rgb(31, 83, 139));
+}
+
+
+.skills-diagram .skill-6 {
+  vertical-align: top;
+  font-family: "Ostrich Sans", Verdana;
+  width: 6em;
+  height: 6em;
+  line-height: 6em;
+  opacity: 0.6;
+  background-color: rgba(75, 154, 171, 1.5);
+  border-color: rgba(75, 154, 171, 1);
+  color: white;
+}
+
+.skills-diagram .skill-7 {
+   background: -moz-linear-gradient(top, #80c5de, #de987f); 
+    background: -webkit-linear-gradient(top, #80c5de, #de987f); 
+    background: -o-linear-gradient(top, #80c5de, #de987f); 
+    background: -ms-linear-gradient(top, #80c5de, #de987f); 
+    background: linear-gradient(top, #80c5de, #de987f); color: #000;
+}
+
+
+.skills-diagram .skill-7 {
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  font-family: "Ostrich Sans", Verdana;
+  background-color: rgba(128,0,0, .5);
+  color: white;
+  opacity: 0.7;
+}
+
+.skills-diagram .skill-8 {
+  background: linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
+  background: -webkit-linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
+}
+
+
+.skills-diagram .skill-8 {
+  vertical-align: bottom;
+  font-family: "Ostrich Sans", Verdana;
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(75, 154, 171, .6);
+  color: white;
+  opacity: 0.6;
+}
+
+.skills-diagram .skill-9 {
+  background: linear-gradient(90deg, rgb(27, 181, 202), rgb(0, 59, 111));
+  background: -webkit-linear-gradient(90deg, rgb(27, 181, 202), rgb(0, 59, 111));
+}
+
+.skills-diagram .skill-9 {
+  width: 8em;
+  height: 8em;
+  line-height: 9em;
+  font-family: "Ostrich Sans", Verdana;
+  background-color: rgba(128,0,0, .7);
+  color: white;
+  opacity: 0.5;
+}
+
+.skills-diagram .skill-10 {
+  background: linear-gradient(90deg, rgb(24, 152, 206), rgb(0, 127, 145));
+  background: -webkit-linear-gradient(90deg, rgb(24, 152, 206), rgb(0, 127, 145));
+}
+
+.skills-diagram .skill-10 {
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(75, 154, 171, .7);
+  color: white;
+  opacity: 0.6;
+  font-family: "Ostrich Sans", Verdana;
+}
+
+
+.skills-diagram .skill-10 {
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(75, 154, 171, .7);
+  color: white;
+  opacity: 0.6;
+  font-family: "Ostrich Sans", Verdana;
+}
+
+.skills-diagram .skill-11 {
+  background: linear-gradient(90deg, rgb(24, 152, 206), rgb(0, 127, 145));
+  background: -webkit-linear-gradient(90deg, rgb(24, 152, 206), rgb(0, 127, 145));
+}
+
+.skills-diagram .skill-11 {
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  background-color: rgba(75, 154, 171, .7);
+  color: white;
+  opacity: 0.6;
+  font-family: "Ostrich Sans", Verdana;
+}
+
+
+
+.projects { 
+  border: 1px double skyblue;
+  border-radius: 40px;
+  padding: 20px;
+  color: grey;
+  margin-bottom: 20px;
+  width: 90%;
+  position: relative;
+  transition: opacity 0.5s;
+  -webkit-transition: all ease-in 0.9s;
+  -moz-transition: all ease-in 0.9s;
+  -o-transition: all ease-in 0.9s;
+  -ms-transition: all ease-in 0.9s ;
+  transition: all ease-in 0.9s;
+}
+
+.progress-container {
+  width:90%;
+  height:.7em;
+  position:relative;
+  background-color:#deeef5;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  transition: opacity 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s ;
+  transition: all ease 0.5s ;
+}
+
+.progress-container:hover {
+  opacity: 0.5;
+}
+
+.project-text {
+  padding-left: 15px;
+  font-weight: bold;
+  width: 50%;
+}
+
+
+.progressbar {
+  background: rgba(34,125,170,1);
+  background: -moz-linear-gradient(left, rgba(224, 185, 171, 1) 0%, rgba(81,172,205,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(224, 185, 171, 1)), color-stop(100%, rgba(81,172,205,1)));
+  background: -webkit-linear-gradient(left, rgba(224, 185, 171, 1) 0%, rgba(81,172,205,1) 100%);
+  background: -o-linear-gradient(left, rgba(224, 185, 171, 1) 0%, rgba(81,172,205,1) 100%);
+  background: -ms-linear-gradient(left, rgba(224, 185, 171, 1) 0%, rgba(81,172,205,1) 100%);
+  background: linear-gradient(to right, rgba(224, 185, 171, 1) 0%, rgba(81,172,205,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#227daa', endColorstr='#51accd', GradientType=1 );
+  height:100%;
+  position:absolute;
+  /*line-height:inherit;*/
+  border-radius: 20px;
+}
+
+.progress-element h2 {
+  font-size: 1.5em;
 }
 
 .blue-background h2 {
@@ -292,51 +605,18 @@ h2 {
   padding:8px;
 }
 
-.projects-one {
-  margin-left: -25px;
-}
-
-.projects-row-1 {
-  height: 130px;
-  opacity: 0.9;
-  padding:5px;
-}
-
-.projects-row-1:hover {
-  color: blue;
-  opacity: 0.5;
-}
 
 .dual-col {
   width: 50%;
   float: left;
+  padding: 0 10px 0 10px;
+}
 }
 
 .dual-col h2 {
-  color: #2473a0;
-  font-size: 15px;
+  color: white;
+  font-size: 17px;
   margin-bottom: 10px;
-}
-
-.project-parent {
-  /*padding-right: 50px;*/
-}
-
-.projects-1 {
-  width:200px;
-  float: right;
-
-
-}
-
-.projects-head {
-  font-family: "Ostrich Sans", Verdana !important;
-  color: #4b9aab;
-  float: left;
-  font-weight: bold;
-  font-size: 28px;
-  padding: 20px;
-
 }
 
 .contacts {
@@ -349,147 +629,6 @@ h2 {
 }
 
 
-@media only screen and (max-width: 1200px) {
-  .title {
-      width: 40%;
-    }
-
-  .content {
-    width: 60%;
-  }
-
-  .section-content .content > div {
-    padding-left: 0;
-  }
-
-  .section-content {
-    padding: 60px 30px;
-  }
-
-  .title img {
-    margin-bottom: 20px;
-  }
-
-  .dual-col {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-    .title, .content {
-      width: 100%;
-    }
-
-  .section-content .content > div {
-    padding-left: 0;
-  }
-
-  .title-FE h1 {
-    font-family: "Ostrich Sans", Verdana;
-  }
-
-  .title-small {
-    font-family: "Josefin Sans", Verdana;
-  }
-
-  p {
-  font-family: "Josefin Sans", Verdana;
-  text-transform: none;
-}
-
-  .section-content {
-    padding: 60px 30px;
-  }
-
-  .title img {
-    margin-bottom: 20px;
-  }
-
-  .w3-progress-container {
-    width: 100%;
-  }
-
-  .footer {
-    text-align: center;
-  }
-
-  .main-section h1 {
-    font-size: 40px;
-  }
-
-  .main-section {
-    height: 670px;
-  }
-
-}
-
-@media only screen and (max-width: 480px) {
-    .title, .content {
-      width: 100%;
-    }
-  .title-FE h1 {
-    font-family: "Ostrich Sans", Verdana;
-  }
-
-  .title-small {
-    font-family: "Josefin Sans", Verdana;
-  }
-
-  p {
-  font-family: "Josefin Sans", Verdana;
-  text-transform: none;
-}
-
-  .section-content .content > div {
-    padding-left: 0;
-  }
-
-  .section-content {
-    padding: 60px 30px;
-  }
-
-  .title img {
-    margin-bottom: 20px;
-  }
-
-  .w3-progress-container {
-    width: 100%;
-  }
-
-  .footer {
-    text-align: center;
-  }
-
-  .main-section h1 {
-    font-size: 40px;
-  }
-
-  .main-section {
-    height: 670px;
-  }
-
-  .projects-one {
-  margin-left: -5px;
-  }
-
-  .projects-row-1 {
-    height: 150px;
-    opacity: 0.9;
-    padding:8px;
-  }
-
-  .projects-row-1:hover {
-    color: blue;
-    opacity: 0.5;
-  }
-
-}
-
-
-.explogos {
-  float:right;
-}
-
 .arrow {
   -webkit-animation: bounce 1.9s ease infinite;
   -moz-animation: bounce 1.9s ease infinite;
@@ -500,6 +639,30 @@ h2 {
 
 .fa-angle-double-down-5x {
   font-size: 200px;
+}
+
+.code-icon {
+  color: rgba(81,172,205,1);
+  float: right;
+  vertical-align: center;
+  display: inline-block;
+  font-size: 30px !important;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  -webkit-animation: bounce 4.9s ease infinite;
+  -moz-animation: bounce 4.9s ease infinite;
+  animation: bounce;
+}
+
+
+.code-icon-hint {
+  color: #4b9aab;
+  float: right;
+  vertical-align: center;
+  display: inline-block;
+  padding-top: 1.2em;
+  font-size: 10px;
+  font-weight: medium;
 }
 
 /*hover effecs*/
@@ -721,244 +884,6 @@ h2 {
   opacity: 1;
 }
 
-/*skills*/
-.skills-diagram {
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  max-width: 35em;
-  margin: 2em auto 2em;
-}
-.skills-diagram > dd {
-  /* Hide inner attributes */
-  display: none;
-}
-.skills-diagram dt {
-  display: inline-block;
-  vertical-align: top;
-  
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 50%;
-  
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  
-  /* set defaults to skill-2 */
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-}
-
-.skills-diagram dt:hover {
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -o-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
-}
-
-/* Support vertical mode */
-.skills-diagram-vertical dt {
-  display: block;
-  /* .25em is an equivalent to inline-block's horizontal whitespace margin */
-  margin: .25em auto;
-  font-family: "Ostrich Sans", Verdana !important;
-}
-
-/* Provide 10 different sizes */
-
-
-/*bootstrap*/
-.skills-diagram .skill-2 {
-    background: -moz-linear-gradient(top, #80c5de, #de987f); 
-    background: -webkit-linear-gradient(top, #80c5de, #de987f); 
-    background: -o-linear-gradient(top, #80c5de, #de987f); 
-    background: -ms-linear-gradient(top, #80c5de, #de987f); 
-    background: linear-gradient(top, #80c5de, #de987f); color: #000;
-
-}
-.skills-diagram .skill-2 {
-  width: 5.5em;
-  height: 5em;
-  line-height: 5em;
-  font-family: "Ostrich Sans", Verdana;
-  border-color: #80c5de;
-  color: white;
-  opacity: 0.7;
-}
-/*sql*/
-
-.skills-diagram .skill-3 {
-  background: linear-gradient(90deg, rgb(106, 161, 211), rgb(0, 82, 163));
-  background: -webkit-linear-gradient(90deg, rgb(106, 161, 211), rgb(0, 82, 163));
-}
-.skills-diagram .skill-3 {
-  vertical-align: middle;
-  opacity: 0.7;
-  width: 3em;
-  height: 3em;
-  line-height: 3em;
-  font-family: "Ostrich Sans", Verdana;
-  color: white;
-}
-
-.skills-diagram .skill-4 {
-  background: linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
-  background: -webkit-linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
-}
-
-.skills-diagram .skill-4 {
-  width: 4em;
-  height: 4em;
-  line-height: 4em;
-  font-family: "Ostrich Sans", Verdana;
-  background-color: rgba(75, 154, 171, .7);
-  border-color: rgba(75, 154, 171, 1);
-  color: white;
-  opacity: 0.6;
-}
-
-.skills-diagram .skill-5 {
-  background: linear-gradient(90deg, rgb(106, 176, 221), rgb(51, 136, 148));
-  background: -webkit-linear-gradient(90deg, rgb(106, 176, 221), rgb(51, 136, 148));
-}
-
-.skills-diagram .skill-5 {
-  vertical-align: bottom;
-  font-family: "Ostrich Sans", Verdana;
-  width: 5em;
-  height: 5em;
-  line-height: 5em;
-  opacity: 0.7;
-  border-color: rgba(109, 182, 173, 1);
-  color: white;
-}
-
-.skills-diagram .skill-6 {
-  background: linear-gradient(90deg, rgb(37, 147, 215), rgb(31, 83, 139));
-  background: -webkit-linear-gradient(90deg, rgb(37, 147, 215), rgb(31, 83, 139));
-}
-
-
-.skills-diagram .skill-6 {
-  vertical-align: top;
-  font-family: "Ostrich Sans", Verdana;
-  width: 6em;
-  height: 6em;
-  line-height: 6em;
-  opacity: 0.6;
-  background-color: rgba(75, 154, 171, 1.5);
-  border-color: rgba(75, 154, 171, 1);
-  color: white;
-}
-
-.skills-diagram .skill-7 {
-   background: -moz-linear-gradient(top, #80c5de, #de987f); 
-    background: -webkit-linear-gradient(top, #80c5de, #de987f); 
-    background: -o-linear-gradient(top, #80c5de, #de987f); 
-    background: -ms-linear-gradient(top, #80c5de, #de987f); 
-    background: linear-gradient(top, #80c5de, #de987f); color: #000;
-}
-
-
-.skills-diagram .skill-7 {
-  width: 8em;
-  height: 8em;
-  line-height: 8em;
-  font-family: "Ostrich Sans", Verdana;
-  background-color: rgba(128,0,0, .5);
-  color: white;
-  opacity: 0.7;
-}
-
-.skills-diagram .skill-8 {
-  background: linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
-  background: -webkit-linear-gradient(90deg, rgb(106, 198, 211), rgb(0, 72, 163));
-}
-
-
-.skills-diagram .skill-8 {
-  vertical-align: bottom;
-  font-family: "Ostrich Sans", Verdana;
-  width: 8em;
-  height: 8em;
-  line-height: 8em;
-  background-color: rgba(75, 154, 171, .6);
-  color: white;
-  opacity: 0.6;
-}
-
-.skills-diagram .skill-9 {
-  background: linear-gradient(90deg, rgb(27, 181, 202), rgb(0, 59, 111));
-  background: -webkit-linear-gradient(90deg, rgb(27, 181, 202), rgb(0, 59, 111));
-}
-
-.skills-diagram .skill-9 {
-  width: 8em;
-  height: 8em;
-  line-height: 9em;
-  font-family: "Ostrich Sans", Verdana;
-  background-color: rgba(128,0,0, .7);
-  color: white;
-  opacity: 0.5;
-}
-
-.skills-diagram .skill-10 {
-  background: linear-gradient(90deg, rgb(24, 152, 206), rgb(0, 127, 145));
-  background: -webkit-linear-gradient(90deg, rgb(24, 152, 206), rgb(0, 127, 145));
-}
-
-.skills-diagram .skill-10 {
-  width: 8em;
-  height: 8em;
-  line-height: 8em;
-  background-color: rgba(75, 154, 171, .7);
-  color: white;
-  opacity: 0.6;
-  font-family: "Ostrich Sans", Verdana;
-}
-
-.skills-diagram .skill-11 {
-  background: url('images/wanderful1.png'); 
-}
-
-.skills-diagram .skill-10 {
-  width: 8em;
-  height: 8em;
-  line-height: 8em;
-  background-color: rgba(75, 154, 171, .7);
-  color: white;
-  opacity: 0.6;
-  font-family: "Ostrich Sans", Verdana;
-}
-
-
-.projects {
-  position: relative;
-  float: right;
-  margin: 2vw;
-
-  background: red;
-  width: 18vw;
-  height: 18vw;
-  border-radius: 50%;
-  
-  overflow: hidden;
-  
-  img {
-    height: 100%;
-  }
-}
-
-.img {
-  width: 100%;
-  height: 100%;
-}
-/*LOADER*/
 
 
 /* ==========================================================================
@@ -1220,6 +1145,142 @@ h2 {
         page-break-after: avoid;
     }
 }
+
+
+
+@media only screen and (max-width: 1200px) {
+  .title {
+      width: 40%;
+    }
+
+  .content {
+    width: 60%;
+  }
+
+  .section-content .content > div {
+    padding-left: 0;
+  }
+
+  .section-content {
+    padding: 60px 30px;
+  }
+
+  .title img {
+    margin-bottom: 20px;
+  }
+
+  .dual-col {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+    .title, .content {
+      width: 100%;
+    }
+
+  .section-content .content > div {
+    padding-left: 0;
+  }
+
+  .title-FE h1 {
+    font-family: "Ostrich Sans", Verdana;
+  }
+
+  .title-small {
+    font-family: "Josefin Sans", Verdana;
+  }
+
+  p {
+  font-family: "Josefin Sans", Verdana;
+  text-transform: none;
+}
+
+  .section-content {
+    padding: 60px 30px;
+  }
+
+  .title img {
+    margin-bottom: 20px;
+  }
+
+  .progress-container {
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .main-section h1 {
+    font-size: 40px;
+  }
+
+  .main-section {
+    height: 670px;
+  }
+  .dual-col {
+    width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .title, .content {
+      width: 100%;
+    }
+  .title-FE h1 {
+    font-family: "Ostrich Sans", Verdana;
+  }
+
+  .title-small {
+    font-family: "Josefin Sans", Verdana;
+  }
+
+  p {
+  font-family: "Josefin Sans", Verdana;
+  text-transform: none;
+}
+
+  .section-content .content > div {
+    padding-left: 0;
+  }
+
+  .section-content {
+    padding: 60px 30px;
+  }
+
+  .title img {
+    margin-bottom: 20px;
+  }
+
+  .progress-container {
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .main-section h1 {
+    font-size: 40px;
+  }
+
+  .main-section {
+    height: 670px;
+  }
+
+
+
+  .dual-col {
+    width: 90%;
+  }
+
+}
+
+
+
+
 
 
 
