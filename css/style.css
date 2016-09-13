@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: white !important;
+  color: #4b9aab !important;
   font-family: "Josefin Sans", Verdana;
   text-decoration: none;
   font-size: 18px;
@@ -150,7 +150,7 @@ h2 {
 }
 
 .section-content .content > div {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 
@@ -227,10 +227,14 @@ h2 {
   padding-left: 10px;
 }
 
+.explogos {
+  float: right;
+  padding: 5px;
+}
 .projects {
-  border: 1.5px solid rgba(75, 154, 171, 1) !important;
-  border-radius: 20px;
-  padding: 20px;
+  border: 1.3px solid rgba(75, 154, 171, 1) !important;
+  border-radius: 35px;
+  padding: 10px;
   color: grey;
   margin-bottom: 20px;
   width: 90%;
@@ -243,9 +247,9 @@ h2 {
   transition: all ease-in 0.9s;
 }
 
-.inner-projects {
+/*.inner-projects {
   padding-left: 8px;
-}
+}*/
 
 .jobs {
   border: 1px double skyblue;
@@ -502,23 +506,6 @@ h2 {
 }
 
 
-
-.projects { 
-  border: 1px double skyblue;
-  border-radius: 40px;
-  padding: 20px;
-  color: grey;
-  margin-bottom: 20px;
-  width: 90%;
-  position: relative;
-  transition: opacity 0.5s;
-  -webkit-transition: all ease-in 0.9s;
-  -moz-transition: all ease-in 0.9s;
-  -o-transition: all ease-in 0.9s;
-  -ms-transition: all ease-in 0.9s ;
-  transition: all ease-in 0.9s;
-}
-
 .progress-container {
   width:90%;
   height:.7em;
@@ -540,9 +527,9 @@ h2 {
 }
 
 .project-text {
-  padding-left: 15px;
+  padding-left: 3px;
   font-weight: bold;
-  width: 50%;
+  width: 60%;
 }
 
 
