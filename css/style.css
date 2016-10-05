@@ -40,17 +40,17 @@ h2 {
 }
 
 .title {
-  font-family: "Ostrich Sans", Verdana !important;
+  font-family: "Ostrich Sans", "Raleway", Verdana !important;
 }
 
 .title-FE {
-  font-family: "Ostrich Sans", Verdana, sans-seriff !important;
+  font-family: "Ostrich Sans", "Raleway", Verdana, sans-seriff !important;
   font-weight: bold;
 
 }
 
 .projects-title {
-  font-family: "Ostrich Sans", Verdana !important;
+  font-family: "Ostrich Sans", "Raleway", Verdana !important;
   font-weight: bold;
   color: #4b9aab !important;
 }
@@ -96,7 +96,7 @@ h2 {
   font-size: 60px;
   text-transform: uppercase;
   margin-bottom: 10px;
-  font-family: "Ostrich Sans", Verdana !important;
+  font-family: "Ostrich Sans", "Raleway", Verdana !important;
   font-weight: bold !important;
   padding-top: 200px;
   color: white !important;
@@ -108,7 +108,7 @@ h2 {
   width: 50px;
   margin: 1px auto 10px auto;
   border: 2px solid #fff;
-  font-family: "Ostrich Sans", Verdana !important;
+  font-family: "Ostrich Sans", "Raleway", Verdana !important;
   font-weight: bold !important;
 }
 
@@ -117,7 +117,7 @@ h2 {
   color: #deeef5;
   letter-spacing: 1px;
   text-transform: lowercase;
-  font-family: "Josefin Sans", Verdana;
+  font-family: "Josefin Sans", "Raleway", Verdana;
   padding-bottom: 12px;
 }
 
@@ -194,7 +194,7 @@ h2 {
 
 .blue-background .title h1 {
   color: white !important;
-  font-family: "Ostrich Sans", Verdana !important;
+  font-family: "Ostrich Sans", "Raleway", Verdana !important;
 }
 
 .white-background p {
@@ -202,7 +202,7 @@ h2 {
 }
 
 .white-background h2 {
-  font-family: "Ostrich Sans", Verdana !important;
+  font-family: "Ostrich Sans", "Raleway", Verdana !important;
   font-weight: bold !important;
   color: #4b9aab;
 }
@@ -403,7 +403,7 @@ h2 {
 
 .skills-diagram .skill-6 {
   vertical-align: top;
-  font-family: "Ostrich Sans", Verdana;
+  font-family: "Ostrich Sans", "Raleway", Verdana;
   width: 6em;
   height: 6em;
   line-height: 6em;
@@ -426,7 +426,7 @@ h2 {
   width: 8em;
   height: 8em;
   line-height: 8em;
-  font-family: "Ostrich Sans", Verdana;
+  font-family: "Ostrich Sans", "Raleway", Verdana;
   background-color: rgba(128,0,0, .5);
   color: white;
   opacity: 0.7;
@@ -440,7 +440,7 @@ h2 {
 
 .skills-diagram .skill-8 {
   vertical-align: bottom;
-  font-family: "Ostrich Sans", Verdana;
+  font-family: "Ostrich Sans", "Raleway", Verdana;
   width: 8em;
   height: 8em;
   line-height: 8em;
@@ -458,7 +458,7 @@ h2 {
   width: 8em;
   height: 8em;
   line-height: 9em;
-  font-family: "Ostrich Sans", Verdana;
+  font-family: "Ostrich Sans", "Raleway", Verdana;
   background-color: rgba(128,0,0, .7);
   color: white;
   opacity: 0.5;
@@ -476,7 +476,7 @@ h2 {
   background-color: rgba(75, 154, 171, .7);
   color: white;
   opacity: 0.6;
-  font-family: "Ostrich Sans", Verdana;
+  font-family: "Ostrich Sans", "Raleway", Verdana;
 }
 
 
@@ -555,7 +555,7 @@ h2 {
 .blue-background h2 {
   color: white;
   text-transform: none;
-  font-family: "Ostrich Sans", Verdana !important;
+  font-family: "Ostrich Sans", "Raleway", Verdana !important;
 
 }
 
@@ -565,7 +565,7 @@ h2 {
 
 .jobs h2, .jobs img {
   display: inline;
-      font-family: "Ostrich Sans", Verdana;
+      font-family: "Ostrich Sans", "Raleway", Verdana;
 
 }
 
@@ -1164,6 +1164,7 @@ h2 {
 @media only screen and (max-width: 767px) {
     .title, .content {
       width: 100%;
+      font-family: "Ostrich Sans", "Raleway", Verdana !important;
     }
 
   .section-content .content > div {
@@ -1171,7 +1172,7 @@ h2 {
   }
 
   .title-FE h1 {
-    font-family: "Ostrich Sans", Verdana;
+    font-family: "Ostrich Sans", "Raleway", Verdana;
   }
 
   .title-small {
@@ -1215,6 +1216,7 @@ h2 {
 @media only screen and (max-width: 480px) {
     .title, .content {
       width: 100%;
+      font-family: "Ostrich Sans", "Raleway", Verdana !important;
     }
   .title-FE h1 {
     font-family: "Ostrich Sans", Verdana;
