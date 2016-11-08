@@ -636,9 +636,7 @@ h2 {
   font-size: 30px !important;
   padding-bottom: 40px;
   padding-right: 20px;
-  -webkit-animation: bounce 4.9s ease infinite;
-  -moz-animation: bounce 4.9s ease infinite;
-  animation: bounce;
+  
 }
 
 
