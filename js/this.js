@@ -1,4 +1,4 @@
-$('.code-icon').animateCss('bounce');
+// $('.code-icon').animateCss('bounce');
 
 
 
