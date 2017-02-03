@@ -49,6 +49,10 @@ h2 {
 
 }
 
+.title-small {
+  margin-top: -10px;
+}
+
 .projects-title {
   font-family: "Ostrich Sans", "Raleway", Verdana !important;
   font-weight: bold;
@@ -70,7 +74,7 @@ h2 {
   -webkit-animation: bounce 1.9s ease infinite;
   -moz-animation: bounce 1.9s ease infinite;
   animation: bounce 1.9s ease infinite;
-  padding-top: 2px;
+  padding-top: 40px;
   height: 20px;
 }
 
@@ -98,16 +102,15 @@ h2 {
   margin-bottom: 10px;
   font-family: "Ostrich Sans", "Raleway", Verdana !important;
   font-weight: bold !important;
-  padding-top: 200px;
+  padding-top: 15%;
   color: white !important;
 }
 
 .main-section h1:after {
   content: ' ';
   display: block;
-  width: 50px;
+  width: 60px;
   margin: 1px auto 10px auto;
-  border: 2px solid #fff;
   font-family: "Ostrich Sans", "Raleway", Verdana !important;
   font-weight: bold !important;
 }
@@ -627,14 +630,14 @@ h2 {
 }
 
 
-.dual-col {
+.skill {
   width: 50%;
   float: left;
   padding: 0 10px 0 10px;
 }
 }
 
-.dual-col h2 {
+.skill h2 {
   color: white;
   font-size: 17px;
   margin-bottom: 10px;
@@ -654,7 +657,7 @@ h2 {
   -webkit-animation: bounce 1.9s ease infinite;
   -moz-animation: bounce 1.9s ease infinite;
   animation: bounce 1.9s ease infinite;
-  padding-top: 2px;
+  padding-top: 40px;
   height: 20px;
 }
 
@@ -682,6 +685,22 @@ h2 {
   padding-top: 1.2em;
   font-size: 10px;
   font-weight: medium;
+}
+
+.footer-text {
+  text-align: center;
+  font-family: "Ostrich Sans", "Raleway", Verdana;
+  font-size: 12px;
+  color:#4b9aab;
+  letter-spacing: 3px;
+}
+
+.cloud {
+  width: 70px;
+}
+
+#footer-tag {
+  margin-top: -10px;
 }
 
 /*hover effecs*/
@@ -1188,7 +1207,7 @@ h2 {
     margin-bottom: 20px;
   }
 
-  .dual-col {
+  .skill {
     width: 50%;
   }
 }
@@ -1209,6 +1228,7 @@ h2 {
 
   .title-small {
     font-family: "Josefin Sans", Verdana;
+    margin-top: -10px;
   }
 
   p {
@@ -1233,13 +1253,13 @@ h2 {
   }
 
   .main-section h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
 
   .main-section {
     height: 670px;
   }
-  .dual-col {
+  .skill {
     width: 80%;
   }
 
@@ -1256,6 +1276,7 @@ h2 {
 
   .title-small {
     font-family: "Josefin Sans", Verdana;
+    margin-top: -10px;
   }
 
   p {
@@ -1284,16 +1305,14 @@ h2 {
   }
 
   .main-section h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
 
   .main-section {
     height: 670px;
   }
 
-
-
-  .dual-col {
+  .skill {
     width: 90%;
   }
 
