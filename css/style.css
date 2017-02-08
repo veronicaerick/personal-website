@@ -97,7 +97,7 @@ h2 {
 }
 
 .main-section h1 {
-  font-size: 60px;
+  font-size: 65px;
   text-transform: uppercase;
   margin-bottom: 10px;
   font-family: "Ostrich Sans", "Raleway", Verdana !important;
@@ -109,7 +109,7 @@ h2 {
 .main-section h1:after {
   content: ' ';
   display: block;
-  width: 60px;
+  width: 65px;
   margin: 1px auto 10px auto;
   font-family: "Ostrich Sans", "Raleway", Verdana !important;
   font-weight: bold !important;
@@ -1253,7 +1253,7 @@ h2 {
   }
 
   .main-section h1 {
-    font-size: 60px;
+    font-size: 65px;
   }
 
   .main-section {
@@ -1305,7 +1305,7 @@ h2 {
   }
 
   .main-section h1 {
-    font-size: 60px;
+    font-size: 65px;
   }
 
   .main-section {
