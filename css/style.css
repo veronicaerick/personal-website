@@ -1207,7 +1207,7 @@ h2 {
 
 @media only screen and (max-width: 480px) {
   .blue-background .title h1 {
-    min-width: 190px;
+    min-width: 220px;
     padding-left: 40px;
     margin: 25px;
   }
