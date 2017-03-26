@@ -1206,10 +1206,22 @@ h2 {
 }
 
 @media only screen and (max-width: 480px) {
-    .title, .content {
-      width: 100%;
-      font-family: "Ostrich Sans", "Raleway", Verdana !important;
-    }
+  .blue-background .title h1 {
+    min-width: 190px;
+    padding-left: 40px;
+    margin: 25px;
+  }
+
+  .white-background .title h1 {
+    min-width: 190px;
+    padding-left: 40px;
+    margin: 25px;
+  }
+
+  .title, .content {
+    width: 100%;
+    font-family: "Ostrich Sans", "Raleway", Verdana !important;
+  }
   .title-FE h1 {
     font-family: "Ostrich Sans", Verdana;
   }
