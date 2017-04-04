@@ -18,6 +18,7 @@ p {
   font-family: "Josefin Sans", Verdana;
   text-transform: none;
   font-size: 18px;
+  color: white;
 }
 
 h2 {
@@ -226,6 +227,10 @@ h2 {
   margin: 10px 0;
 }
 
+#ya {
+      transform: translateY(0);
+}
+
 .title {
   float: left;
   width: 20%;
@@ -260,8 +265,9 @@ h2 {
 }
 
 .jobs {
-  border: 1.5px double #4D7F8E;
-  border-radius: 10px;
+  background-color: #4A7C8D;
+  border: 2px solid  #4D7F8E;
+  border-radius: 20px;
   padding: 20px;
   color: grey;
   margin-bottom: 20px;
@@ -421,27 +427,19 @@ h2 {
 }
 
 .skills-diagram .skill-10 {
-  background: linear-gradient(to right, #D19BA8 0%, #4C7F90 100%);
+  background: #E8CBC0;
+  background: -webkit-linear-gradient(to left, #E8CBC0 , #636FA4); 
+  background: linear-gradient(to left, #E8CBC0 , #636FA4);
 }
 
 .skills-diagram .skill-10 {
   width: 8em;
   height: 8em;
   line-height: 8em;
-  background-color: rgba(75, 154, 171, .7);
+  /*background-color: rgba(75, 154, 171, .7);*/
   color: white;
   opacity: 0.9;
   font-family: "Ostrich Sans", "Raleway", Verdana;
-}
-
-.skills-diagram .skill-10 {
-  width: 8em;
-  height: 8em;
-  line-height: 8em;
-  background-color: rgba(75, 154, 171, .7);
-  color: white;
-  opacity: 0.6;
-  font-family: "Ostrich Sans", Verdana;
 }
 
 .skills-diagram .skill-11 {
@@ -518,8 +516,8 @@ h2 {
 
 .project-text {
   padding-left: 3px;
-  font-weight: bold;
   width: 60%;
+  color: white;
 }
 
 .progressbar {
@@ -561,7 +559,7 @@ h2 {
 }
 
 .jobs p {
-  color: #95c5db;
+  color: white;
 }
 
 .skills-row-1:hover {
@@ -591,7 +589,7 @@ h2 {
   color: #4b9aab;
   height: 50px;
   float: right;
-  padding-top: 10px;
+  padding-top: 40px;
   display: block;
   text-align: center;
 }
@@ -1269,6 +1267,8 @@ h2 {
   }
 
 }
+
+
 
 
 
