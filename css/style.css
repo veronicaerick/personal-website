@@ -1286,6 +1286,10 @@ h2 {
     margin: 25px;
   }
 
+  .jobs {
+    margin: 0 auto;
+  }
+
   .white-background .title h1 {
     min-width: 200px;
     padding-left: 30px;
@@ -1340,6 +1344,15 @@ h2 {
 
   .skill {
     width: 90%;
+  }
+
+  .hvr-shadow-radial {
+        width: 90%;
+        height: 200px;
+  }
+
+  .small {
+    margin-bottom: 5px;
   }
 }
 
