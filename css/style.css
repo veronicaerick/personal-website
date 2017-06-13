@@ -189,25 +189,17 @@ h2 {
 }
 
 .white-background .title h1 {
-  color: #deeef5 !important;
-  /*border: 1px solid #4D7F8E;*/
+  color: #3E506E !important;
   width: 32%;
-  border-radius: 50px;
   padding: 10px 0 2px 20px;
-  background-color: #4C8191;
-  max-width: 170px;
-  min-width: 145px;
 }
 
 
 .blue-background .title h1 {
   color: white !important;
   font-family: "Ostrich Sans", "Raleway", Verdana !important;
-  border: 1px solid #4D7F8E;
   width: 32%;
-  border-radius: 50px;
   padding: 10px 0 2px 25px;
-  background-color: #353857;
   max-width: 170px;
   min-width: 155px;
 }
